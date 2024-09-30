@@ -46,6 +46,7 @@
 .home-content{
     display: flex;
     color: white;
+    padding: 0 60px;
     
 }
 .home-para-head{
