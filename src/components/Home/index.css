@@ -1,0 +1,106 @@
+.section1{
+    background-image: linear-gradient(#75CCEB , #6FB4FF);
+    height: 100vh;
+    width: 100%;
+}
+.wave{
+    background-image: url('/public/wave1.png');
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    z-index: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 30px;
+    align-items: center;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-right: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-list-items{
+    margin: 0 20px;
+}
+.nav-list-container{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    
+}
+.home-product-container{
+    padding: 20px;
+    background-color: white;
+    width: 360px;
+    z-index: 999;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-content{
+    display: flex;
+    color: white;
+    
+}
+.home-para-head{
+   padding: 40px;
+   width: 60%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-heading{
+    font-weight: normal;
+}
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.home-paragraph{
+    color: #31546D;
+    width: 400px;
+}
+.home-btn-container{
+    display: flex;
+
+}
+.shop-now{
+    background-color: white;
+    padding: 18px 34px;
+    border-radius: 14px;
+    border: none;
+    color: #317189;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+.about-us{
+    background: none;
+    padding: 18px 24px;
+    color: #317189;
+    border: none;
+}
+.product-home-details{
+    color: #31546D;
+    text-align: center;
+}
+.scroll-down{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    z-index: 999;
+    width: 100%;
+}
+.scroll-para{
+    color: #31546D;
+    margin-left: 10px;
+}
+.scroll-img{
+    width: 20px;
+}

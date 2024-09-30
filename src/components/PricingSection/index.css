@@ -1,0 +1,69 @@
+.wave-section{
+    background-image: linear-gradient(#75CCEB , #6FB4FF);
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.wave2{
+    background-image: url('/public/wave2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.deal-heading{
+    font-size: 28px;
+    color: #31546D;
+    
+}
+.deal-main-heading{
+    font-size: 48px;
+}
+.deal-details-container{
+    width: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    margin-right: 20px;
+}
+.deal-price-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.original-price{
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #41A0B7;
+}
+.deal-price{
+    color: #E35B3E;
+    font-size: 38px;
+}
+.deal-buy-now{
+    background-image: linear-gradient(#75CCEB , #6FB4FF);
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+}
+.deal-product-outer-container{
+    padding: 60px;
+    background-color: #ffffffd7;
+    border-radius: 100%;
+}
+
+.deal-product-inner-container{
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+
+}

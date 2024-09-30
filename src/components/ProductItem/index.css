@@ -1,0 +1,34 @@
+.product-item-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    color: #317189;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.diplay-product{
+    width: 200px;
+}
+.product-items-details-container{
+    text-align: center;
+}
+.product-item-buy-now{
+    border: none;
+    
+     border: 1px solid #75CCEB;
+    padding: 12px 28px;
+    border-radius: 12px;
+    color: #75CCEB;
+    background-color: white;
+}
+.product-name{
+    color: black;
+}
+.product-price{
+    font-weight: bold;
+}
